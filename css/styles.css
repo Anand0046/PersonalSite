@@ -1,3 +1,13 @@
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+a:visited {
+  color: inherit;
+}
+a:hover {
+  color: #40514e;
+}
 body {
   background-color: #f7f7f7;
   margin: auto;
@@ -13,10 +23,15 @@ h1 {
   width: 30%;
   margin: auto;
   font-family: 'Sacramento', cursive;
+  color: #66BFBF;
   line-height: 2;
+}
+h2 {
+  color:  #66BFBF;
 }
 
 h3 {
+  color:  #11999e;
   font-family: 'Montserrat', sans-serif;
   line-height: 2;
 }
@@ -27,6 +42,7 @@ img {
 }
 
 p {
+  color: #40514e;
   width: 60%;
   margin: auto;
 }
@@ -40,9 +56,13 @@ ul {
   left: 150px;
   position: absolute;
 }
-
+.degree {
+  font-style: italic;
+}
 .heading {
   padding-top: 150px;
+  font-weight: bold;
+  font-size: 60px;
 }
 
 .middle-container {
@@ -63,6 +83,9 @@ ul {
   border-radius: 50%;
   width: 200px;
 }
+.work {
+  margin-bottom: 0;
+}
 .skill-col-1 {
   display: table-cell;
   font-size: 1.2em;
@@ -74,4 +97,7 @@ ul {
  font-size: 1.2em;
  text-align: left;
  padding-left: 400px;
+}
+.University {
+  font-weight: bold;
 }
