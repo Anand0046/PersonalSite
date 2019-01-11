@@ -148,17 +148,17 @@ ul {
 .mountain {
   padding-bottom: 0px;
 }
-.skill-col-1 {
-  display: table-cell;
-  font-size: 1.2em;
-  text-align: left;
-  padding-left: 150px;
+.skills-row {
+  display: flex;
 }
-.skill-col-2 {
- display: table-cell;
- font-size: 1.2em;
- text-align: left;
- padding-left: 400px;
+.skills-row > .skill-col {
+  width: 50%;
+  text-align: left;
+}
+.sk {
+  padding-left: 300px;
+  font-size: 1.2em;
+  line-height: 2;
 }
 .University {
   font-weight: bold;
